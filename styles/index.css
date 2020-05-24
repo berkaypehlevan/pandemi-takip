@@ -1,0 +1,53 @@
+#title {
+  text-align: center;
+  margin-top: 3rem !important;
+  font-family: monospace;
+  font-size: 24px;
+  background-color: cornflowerblue;
+}
+
+#desc {
+  text-align: center;
+  margin-top: 2rem !important;
+  background-color: cornflowerblue;
+  font-family: monospace;
+  font-size: 16px;
+  min-width: 55px;
+  max-width: 80%;
+}
+
+#datakart1,
+#datakart2,
+#datakart3,
+#datakart4 {
+  align-items: center;
+  min-width: 11rem;
+  max-width: 13rem;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+#datakart5,
+#datakart6,
+#datakart7,
+#datakart8,
+#datakart9,
+#datakart10 {
+  align-items: center;
+  min-width: 15rem;
+  max-width: 15rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  font-size: 18 px;
+}
+
+#datamain {
+  margin-top: 3rem;
+  font-family: monospace;
+}
+
+#footer {
+  color: #00000075;
+  font-weight: 300;
+  font-family: monospace;
+}

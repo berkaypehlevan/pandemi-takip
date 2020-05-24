@@ -1,26 +1,17 @@
-import React, { useEffect, useState } from "react";
-import { getAll } from "../services";
+import Head from "./../components/Head";
+import Header from "./../components/Header";
+import Datas from "./../components/Datas";
+import Footer from "./../components/Footer";
 
-function Home() {
-  const [isLoading, setIsLoading] = useState();
-  const [allData, setAllData] = useState();
-
-  useEffect(() => {
-    setIsLoading(true);
-    getAll()
-      .then(data => {
-        setIsLoading(false);
-        setAllData(data);
-      })
-      .catch(error => console.error(error));
-  }, []);
-
+function Index() {
   return (
     <div>
-      <div>Hello World!</div>
-      <div>{!isLoading && allData ? allData[0].Country : "Yükleniyor..."}</div>
+      <Head />
+      <Header />
+      <Datas />
+      <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Index;

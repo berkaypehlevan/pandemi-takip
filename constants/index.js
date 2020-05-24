@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const myAxios = axios.create({
-  baseURL: "https://api.covid19api.com"
+  baseURL: "https://coronavirus-19-api.herokuapp.com",
 });
