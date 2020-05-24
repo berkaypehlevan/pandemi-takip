@@ -18,7 +18,11 @@ function Home() {
   return (
     <div>
       <div>Hello World!</div>
-      <div>{!isLoading && allData ? allData[0].Country : "Yükleniyor..."}</div>
+      {!isLoading && allData ? (
+        allData.map(item => <div>{item.Country}</div>)
+      ) : (
+        <div>Yükleniyor...</div>
+      )}
     </div>
   );
 }
