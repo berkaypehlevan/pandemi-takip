@@ -1,0 +1,27 @@
+#data {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#title {
+  text-align: center;
+  margin-top: 5%;
+  color: #1e272e;
+}
+
+#kart {
+  justify-content: center;
+  text-align: center;
+  background-color: #c6ffd9;
+  color: #000000;
+}
+
+#datakart1,
+#datakart2,
+#datakart3,
+#datakart4 {
+  max-width: 15rem;
+  background-color: #b2c0fa;
+  margin-left: 2%;
+  margin-right: 2%;
+}
