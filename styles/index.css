@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #title {
   text-align: center;
   margin-top: 3rem !important;
@@ -15,7 +14,8 @@
   font-size: 16px;
   min-width: 55px;
   max-width: 80%;
-=======
+}
+
 #data {
   text-align: center;
   margin-top: 10%;
@@ -32,33 +32,17 @@
   text-align: center;
   background-color: #c6ffd9;
   color: #000000;
->>>>>>> dff371398c294d162ebb2a58df5c433bb8ebe3ca
 }
 
 #datakart1,
 #datakart2,
 #datakart3,
 #datakart4 {
-<<<<<<< HEAD
   align-items: center;
   min-width: 11rem;
   max-width: 13rem;
   margin-bottom: 1rem;
   font-size: 15px;
-}
-
-#datakart5,
-#datakart6,
-#datakart7,
-#datakart8,
-#datakart9,
-#datakart10 {
-  align-items: center;
-  min-width: 15rem;
-  max-width: 15rem;
-  margin-bottom: 1rem;
-  margin-top: 5rem;
-  font-size: 18 px;
 }
 
 #datamain {
@@ -71,10 +55,3 @@
   font-weight: 300;
   font-family: monospace;
 }
-=======
-  max-width: 15rem;
-  background-color: #b2c0fa;
-  margin-left: 2%;
-  margin-right: 2%;
-}
->>>>>>> dff371398c294d162ebb2a58df5c433bb8ebe3ca
