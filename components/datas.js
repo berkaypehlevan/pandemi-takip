@@ -22,12 +22,11 @@ function Datas() {
     >
       <div
         id="datakart1"
-        className="element-animated fade-in long card mx-auto bg-light"
+        className="element-animated fade-in long card mx-auto"
       >
         <div className="card-header">Toplam Vaka</div>
         <div className="card-body">
           <p className="card-text">
-            {" "}
             {!isLoading && allData ? allData.cases : "Yükleniyor..."}
           </p>
         </div>
@@ -35,37 +34,34 @@ function Datas() {
 
       <div
         id="datakart3"
-        className="element-animated fade-in long card mx-auto bg-light"
+        className="element-animated fade-in long card mx-auto"
       >
-        <div className="card-header">Toplam Ölüm</div>
+        <div className="card-header">Aktif Vaka</div>
         <div className="card-body">
           <p className="card-text">
-            {" "}
-            {!isLoading && allData ? allData.deaths : "Yükleniyor..."}
+            {!isLoading && allData ? allData.active : "Yükleniyor..."}
           </p>
         </div>
       </div>
       <div
         id="datakart2"
-        className="element-animated fade-in long card mx-auto bg-light"
+        className="element-animated fade-in long card mx-auto"
       >
-        <div className="card-header">Bugün Vakalar</div>
+        <div className="card-header">Toplam Ölüm</div>
         <div className="card-body">
           <p className="card-text">
-            {" "}
-            {!isLoading && allData ? allData.todayCases : "Yükleniyor..."}
+            {!isLoading && allData ? allData.deaths : "Yükleniyor..."}
           </p>
         </div>
       </div>
       <div
         id="datakart4"
-        className="element-animated fade-in long card mx-auto bg-light"
+        className="element-animated fade-in long card mx-auto"
       >
-        <div className="card-header">Bugün Ölüm</div>
+        <div className="card-header">İyileşen</div>
         <div className="card-body">
           <p className="card-text">
-            {" "}
-            {!isLoading && allData ? allData.todayDeaths : "Yükleniyor..."}
+            {!isLoading && allData ? allData.recovered : "Yükleniyor..."}
           </p>
         </div>
       </div>
